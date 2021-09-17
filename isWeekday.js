@@ -1,5 +1,3 @@
-module.exports = function isWeekday(weekDay){
-    return weekDay.startsWith('M');
+module.exports = function isWeekday(day){
+    return day == "Monday" ||  day == "Tuesday" || day == "Wednesday" || day == "Thursday" || day == "Friday";
   }
-  console.log(isWeekday('Monday'));
-  console.log(isWeekday('January'));
